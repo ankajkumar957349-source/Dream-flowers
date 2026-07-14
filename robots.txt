@@ -7,4 +7,4 @@ Disallow: /firebase.js
 Disallow: /config.js
 
 
-Sitemap: https://www.yourwebsite.com/sitemap.xml
+Sitemap: https://www.dreamflowerdecoration.com/sitemap.xml
