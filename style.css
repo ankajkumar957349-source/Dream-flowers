@@ -1,0 +1,218 @@
+/* ===== Dream Flower Decoration ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f7f7f7;
+    color:#333;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+/* Header */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+    background:#6a1b9a;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo h2{
+    color:#fff;
+}
+
+nav ul{
+    display:flex;
+    gap:20px;
+}
+
+nav ul li a{
+    color:#fff;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    color:#ffd54f;
+}
+
+/* Banner */
+
+.page-banner{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url(images/banner.jpg);
+    background-size:cover;
+    background-position:center;
+    padding:100px 20px;
+    text-align:center;
+    color:#fff;
+}
+
+.page-banner h1{
+    font-size:45px;
+}
+
+.page-banner p{
+    margin-top:10px;
+}
+
+/* Hero */
+
+.hero{
+    height:90vh;
+    background:url(images/hero.jpg);
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay{
+    text-align:center;
+    color:#fff;
+}
+
+.overlay h1{
+    font-size:60px;
+}
+
+.overlay p{
+    font-size:20px;
+    margin:20px 0;
+}
+
+/* Button */
+
+.btn,
+.btn2{
+    display:inline-block;
+    padding:12px 30px;
+    border-radius:6px;
+    margin:10px;
+    color:#fff;
+    background:#e91e63;
+    transition:.3s;
+}
+
+.btn:hover,
+.btn2:hover{
+    background:#c2185b;
+}
+
+/* Cards */
+
+.service-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    padding:50px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.card i{
+    font-size:40px;
+    color:#e91e63;
+    margin-bottom:15px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+/* Gallery */
+
+.gallery-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+    padding:50px;
+}
+
+.gallery-item img{
+    width:100%;
+    border-radius:10px;
+    transition:.4s;
+}
+
+.gallery-item img:hover{
+    transform:scale(1.05);
+}
+
+/* Forms */
+
+form{
+    max-width:700px;
+    margin:auto;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+/* Footer */
+
+footer{
+    background:#6a1b9a;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+}
+
+nav ul{
+    flex-direction:column;
+    text-align:center;
+}
+
+.overlay h1{
+    font-size:35px;
+}
+
+.page-banner h1{
+    font-size:30px;
+}
+
+}
