@@ -1,0 +1,65 @@
+/*=====================================
+  Dream Flower Decoration - footer.css
+======================================*/
+
+footer{
+    background:#4a148c;
+    color:#fff;
+    padding:50px 20px 20px;
+    margin-top:50px;
+}
+
+.footer-content{
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
+}
+
+.footer-content h2{
+    font-size:32px;
+    margin-bottom:15px;
+    color:#fff;
+}
+
+.footer-content p{
+    font-size:16px;
+    line-height:1.8;
+    margin-bottom:15px;
+}
+
+.social{
+    margin:20px 0;
+}
+
+.social a{
+    display:inline-block;
+    width:45px;
+    height:45px;
+    line-height:45px;
+    background:#fff;
+    color:#6a1b9a;
+    border-radius:50%;
+    margin:0 8px;
+    font-size:20px;
+    transition:.3s;
+}
+
+.social a:hover{
+    background:#ff9800;
+    color:#fff;
+    transform:translateY(-5px);
+}
+
+.copyright{
+    margin-top:20px;
+    padding-top:15px;
+    border-top:1px solid rgba(255,255,255,.3);
+    font-size:15px;
+}
+
+/* WhatsApp Floating Button */
+
+.whatsapp-float{
+    position:fixed;
+    right:20px;
+    bottom
