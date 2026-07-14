@@ -1,0 +1,10 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /admin.html
+Disallow: /firebase.js
+Disallow: /config.js
+
+
+Sitemap: https://www.yourwebsite.com/sitemap.xml
