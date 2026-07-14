@@ -1,0 +1,114 @@
+/*=====================================
+  Dream Flower Decoration - booking.css
+======================================*/
+
+.booking-section{
+    width:100%;
+    padding:80px 8%;
+    background:#f8f8f8;
+}
+
+.booking-container{
+    max-width:700px;
+    margin:auto;
+    background:#fff;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.booking-container h2{
+    text-align:center;
+    color:#6a1b9a;
+    font-size:35px;
+    margin-bottom:30px;
+}
+
+.booking-form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+    transition:0.3s;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus{
+    border-color:#6a1b9a;
+    box-shadow:0 0 8px rgba(106,27,154,.3);
+}
+
+.booking-form textarea{
+    resize:vertical;
+    min-height:120px;
+}
+
+.booking-form button{
+    background:#6a1b9a;
+    color:#fff;
+    border:none;
+    padding:15px;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.booking-form button:hover{
+    background:#ff9800;
+}
+
+.booking-info{
+    margin-top:30px;
+    text-align:center;
+}
+
+.booking-info p{
+    margin:10px 0;
+    color:#555;
+    font-size:16px;
+}
+
+.booking-info i{
+    color:#6a1b9a;
+    margin-right:8px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.booking-section{
+    padding:50px 20px;
+}
+
+.booking-container{
+    padding:25px;
+}
+
+.booking-container h2{
+    font-size:28px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea{
+    font-size:15px;
+}
+
+.booking-form button{
+    font-size:16px;
+}
+
+}
